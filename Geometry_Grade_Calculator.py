@@ -3,6 +3,8 @@ import math
 import pandas as pd
 import os
 
+#Currently works for Schoology Gradebook. Not optimized for MiStar Gradebook yet
+
 def grade_mode(standard:list):
     """This function finds the mode of the grades in our standards based grading
     I created this function because the statistics.mode function will not return
